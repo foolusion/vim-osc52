@@ -1,0 +1,3 @@
+Plug 'foolusion/vim-osc52'
+
+vmap <C-c> y:call SendViaOSC52(getreg('"'))<cr>
